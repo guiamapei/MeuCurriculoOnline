@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor1: #1FB4EB;
+    --cor2: #1DA8DB;
+    --cor3: #1995C2;
+    --cor4: #14779C;
+    --cor5: #0C475C;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header img{
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-left: 10px;
+    float: left;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    line-height: 0.4em;
+    text-align: center;
+    min-height: 220px;
+    max-height: 350px;
+}
+
+header h1{
+    padding: 30px 0px;
+    font-family: var(--font-destaque);
+}
+header p {
+    padding: 7px;
+    font-size: 1.2em;
+    font-family: var(--font-padrao);
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+
+
+body{
+    background-color: #1fb5eb5e;
+    font-family: var(--font-padrao);
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 750px;
+    margin: auto;
+    padding: 20px 20px 5px 20px;
+}
+
+main h3{
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-left: 7px;
+}
+main h4{
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 1.4em;
+    padding-left: 7px;
+}
+
+
+main p {
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.3em;
+}
+
+main ul {
+    padding-top: 10px;
+    list-style-position: inside;
+}
+main a {
+    color: var(--cor2);
+    font-weight: bold;
+}
+main a:hover {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+hr{
+    margin-bottom: 20px;
+    margin-top: 7px;
+    height: 2px;
+}
+
+.pdestaque{
+    text-decoration: underline;
+}
+
+aside {
+    background-color: #1fb5ebb9;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+}
+aside p {
+    font-weight: var(--font-padrao);
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    text-align: justify;
+}
+
+
+footer{
+    background-color: #0b4357;
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
+}
