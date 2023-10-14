@@ -91,10 +91,11 @@ main ul {
 }
 main a {
     color: var(--cor2);
-    font-weight: bold;
+    font-weight: bolder;
+    text-decoration: none;
 }
 main a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: normal;
 }
 
