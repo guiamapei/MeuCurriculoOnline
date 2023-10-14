@@ -36,7 +36,7 @@ header h1{
 }
 header p {
     padding: 7px;
-    font-size: 1.2em;
+    font-size: clamp(0.5em, 1em);
     font-family: var(--font-padrao);
 }
 header a{
