@@ -92,6 +92,7 @@ main p {
 main ul {
     padding-top: 10px;
     list-style-position: inside;
+    padding-left: 20px;
 }
 main a {
     color: var(--cor2);
@@ -129,7 +130,10 @@ aside > ul{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     text-align: justify;
+    padding-left: 15px;
 }
+
+
 
 
 footer{
