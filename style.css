@@ -15,7 +15,6 @@
 
 *{
     margin: 0px;
-    padding: 0px;
 }
 header img{
     border-radius: 20px;
@@ -27,15 +26,15 @@ header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     line-height: 0.4em;
     text-align: center;
-    min-height: 220px;
+    height: 220px;
 }
 
 header h1{
-    padding-top: 30px;
-    padding-bottom: 15px;
-    font-size: clamp(0.5em, 2em);
+    font-size: clamp(0.3em, 1em);
     font-family: var(--font-destaque);
     text-decoration: underline;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 header p {
     padding-top: 15px;
