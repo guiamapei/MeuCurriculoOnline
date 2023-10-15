@@ -31,9 +31,11 @@ header {
 }
 
 header h1{
-    padding: 30px 0px;
-    font-size: clamp(1.0em, 3em);
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: clamp(0.5em, 2em);
     font-family: var(--font-destaque);
+    text-decoration: underline;
 }
 header p {
     padding-top: 15px;
