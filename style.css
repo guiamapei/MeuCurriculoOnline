@@ -54,14 +54,19 @@ header a:hover{
 body{
     background-color: #1fb5eb5e;
     font-family: var(--font-padrao);
+    background-image: url('imagens/curr.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 main{
     background-color: white;
     min-width: 300px;
-    max-width: 750px;
+    max-width: 700px;
     margin: auto;
-    padding: 20px 20px 5px 20px;
+    padding: 7px;
+    border-radius: 15px;
 }
 
 main h3{
