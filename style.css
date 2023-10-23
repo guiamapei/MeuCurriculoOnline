@@ -54,7 +54,7 @@ header a:hover{
 body{
     background-color: #1fb5eb5e;
     font-family: var(--font-padrao);
-    background-image: url('imagens/curr.jpg');
+    background-image: url('imagens/currT.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
