@@ -31,7 +31,7 @@ header {
 }
 
 header h1{
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-family: var(--font-destaque);
     text-decoration: underline;
     padding-top: 30px;
@@ -40,7 +40,7 @@ header h1{
 header p {
     padding-top: 15px;
     font-weight: bold;
-    font-size: clamp(0.5em, 2em);
+    font-size: clamp(0.3em, 1em);
     font-family: var(--font-padrao);
 }
 header a{
@@ -54,16 +54,14 @@ header a:hover{
 
 
 body{
-    background-color: #1fb5eb5e;
-    font-family: var(--font-padrao);
-    background-image: url('imagens/currT.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+
+    background: #1fb5eb5e url(imagens/currT.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 main{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.075) 59%, var(--cor1));
+    font-family: var(--font-padrao);
     min-width: 300px;
     max-width: 700px;
     margin: auto;
