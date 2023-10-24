@@ -23,10 +23,11 @@ header img{
     float: left;
 }
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor2) 5%, var(--cor5));
     line-height: 0.4em;
     text-align: center;
-    height: 220px;
+    height: 200px;
+    border-radius: 15px;
 }
 
 header h1{
@@ -38,6 +39,7 @@ header h1{
 }
 header p {
     padding-top: 15px;
+    font-weight: bold;
     font-size: clamp(0.5em, 2em);
     font-family: var(--font-padrao);
 }
@@ -61,12 +63,13 @@ body{
 }
 
 main{
-    background-color: white;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.075) 59%, var(--cor1));
     min-width: 300px;
     max-width: 700px;
     margin: auto;
-    padding: 7px;
-    border-radius: 15px;
+    padding: 15px   ;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.137);
 }
 
 main h3{
@@ -122,6 +125,7 @@ aside {
     background-color: #1fb5ebb9;
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.082);
 }
 
 aside > h3 {
