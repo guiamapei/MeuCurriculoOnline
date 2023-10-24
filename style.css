@@ -33,7 +33,7 @@ header {
 }
 
 header h1{
-    font-size: clamp(1.6em, 1.6em + 2vw, 2.5em);
+    font-size: clamp(1.5em, 1.5em + 2vw, 2.5em);
     font-family: var(--font-destaque);
     text-decoration: underline;
     padding-top: 30px;
@@ -41,8 +41,7 @@ header h1{
 }
 header p {
     padding-top: 12px;
-    font-weight: bold;
-    font-size: clamp(0.9em, 0.9 + 2vw, 1.2em);
+    font-size: 0.9em;
     font-family: var(--font-padrao);
 }
 header a{
