@@ -145,12 +145,13 @@ aside > ul{
 
 footer{
     background-color: #0b4357;
-    height: 40px;
+    height: 60px;
     color: white;
     text-align: center;
-    margin-top: 13px;
-    padding-top: 10px;
+    padding: 20px;
+    margin-top: 10px;
 }
+
 footer a{
     text-decoration: none;
     color: white;
